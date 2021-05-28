@@ -23,6 +23,7 @@ while VALIDITY:
     lyrics = open(path,"r")
     print(f"Your lyrics for song '{song_list[option]}' is right below. Enjoy!!\n")
     print(lyrics.read())
+    print("\n")
     while VALIDITY:
         choice = input("Do you want to Enjoy More?? Enter-'*' or else Enter-'quit' :- ")
         if choice == '*':
