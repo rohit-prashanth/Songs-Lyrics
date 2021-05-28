@@ -8,7 +8,7 @@ def song_List():
     for i in range(len(song_list)):
         print(f"{i+1} - {song_list[i]}")
     while True:
-        option = int(input("Enter your choice: "))
+        option = int(input("Enter your choice[1-12]: "))
         if option > 12 or option < 1:
             print("You have Entered Wrong, Please enter correct choice!.")
             continue
