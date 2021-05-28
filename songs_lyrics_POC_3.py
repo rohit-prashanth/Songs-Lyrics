@@ -25,13 +25,13 @@ while VALIDITY:
     print(lyrics.read())
     print("\n")
     while VALIDITY:
-        choice = input("Do you want to Enjoy More?? Enter-'*' or else Enter-'quit' :- ")
+        choice = input("\nDo you want to Enjoy More?? Enter-'*' or else Enter-'quit' :- ")
         if choice == '*':
             break
         elif choice == 'quit':
             print("\nAdiós amigo!, Powering Off.")
             VALIDITY = False
         else:
-            print("Please, Enter correct choice!!")
+            print("\nPlease, Enter correct choice!!")
             continue
         
